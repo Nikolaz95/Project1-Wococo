@@ -1,0 +1,15 @@
+
+
+
+
+.footerMainContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.foterLogo {
+    display: flex;
+    align-items: center;
+}
