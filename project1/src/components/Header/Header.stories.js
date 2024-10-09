@@ -8,6 +8,7 @@ export default {
     tags: ['autodocs'],
     parameters: {
         layout: 'fullscreen',
+        viewport: { defaultViewport: 'Mobile Small' },
     },
     args: {
         onLogin: fn(),
