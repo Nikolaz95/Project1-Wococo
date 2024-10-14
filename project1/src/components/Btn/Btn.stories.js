@@ -1,9 +1,10 @@
 import { fn } from '@storybook/test';
-import Button from "./Button";
+import Btn from "./Btn";
+
 
 export default {
-    title: "Button/button",
-    component: Button,
+    title: "exemple2/button",
+    component: Btn,
     tags: ['autodocs'],
     parameters: {
         layout: 'centered',
@@ -11,7 +12,8 @@ export default {
     args: { onClick: fn() },
 }
 
-export const Default = {
+
+export const Default2 = {
     args: {
         primary: true,
         label: 'Button',
@@ -19,27 +21,27 @@ export const Default = {
     },
 }
 
-export const NotDefault = {
+export const NotDefault2 = {
     args: {
         label: 'Button',
     },
 }
 
-export const Large = {
+export const Large2 = {
     args: {
         size: 'large',
         label: 'Button',
     },
 };
 
-export const Medium = {
+export const Medium2 = {
     args: {
         size: 'medium',
         label: 'Button',
     },
 };
 
-export const Small = {
+export const Small2 = {
     args: {
         size: 'small',
         label: 'Button',
